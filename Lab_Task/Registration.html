@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+
+<form action="RegistrationAction.php" method="post" novalidate>
+
+	<h1><center>Registration</center></h1>
+
+    <label for="fname">First name* :</label>
+    <input type="text" id="fname" name="fname">
+
+    <br><br>
+
+    <label for="lname">Last name* :</label>
+    <input type="text" id="lname" name="lname">
+
+    <br><br>
+
+    <label for="grnder">Gender* :</label>
+    <select name="gender" id="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    </select>
+
+    <br><br>
+
+    <label for="username">Username* :</label>
+    <input type="text" id="username" name="username">
+
+    <br><br>
+
+    <label for="pass">Password* :</label>
+    <input type="password" id="pass" name="pass">
+
+    <br><br>
+
+    <label for="conpass">Confirm Password* :</label>
+    <input type="password" id="conpass" name="conpass">
+
+    <br><br>
+
+    <div style="text-align:center">  
+    <input type="submit" value="Submit">  
+    </div> 
+
+    <br>
+
+    </form>
+
+    <div style="text-align:center"> 
+    <a href="Login.html">Login</a>
+    </div> 
+
+</body>
+</html>
